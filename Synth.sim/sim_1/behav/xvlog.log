@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/julian3/Vivado/Synth/Synth.srcs/sources_1/new/clk_div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_div
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/julian3/Vivado/Synth/Synth.srcs/sources_1/imports/new/oscillator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module oscillator
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/julian3/Vivado/Synth/Synth.srcs/sources_1/imports/new/i2s_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module i2s_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/julian3/Vivado/Synth/Synth.srcs/sources_1/new/synth_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module synth_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/julian3/Vivado/Synth/Synth.srcs/sim_1/new/synth_top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module synth_top_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/julian3/Vivado/Synth/Synth.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

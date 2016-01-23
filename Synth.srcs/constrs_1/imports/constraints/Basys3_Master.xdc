@@ -169,8 +169,8 @@ set_property PACKAGE_PIN U17 [get_ports btnD]
     set_property PACKAGE_PIN C15 [get_ports {mclk_2518}]
     set_property IOSTANDARD LVCMOS33 [get_ports {mclk_2518}]
     ##Sch name = JB10
-    set_property PACKAGE_PIN C16 [get_ports {SD_2518}]
-    set_property IOSTANDARD LVCMOS33 [get_ports {SD_2518}]
+    set_property PACKAGE_PIN C16 [get_ports {sd_2518}]
+    set_property IOSTANDARD LVCMOS33 [get_ports {sd_2518}]
 
 
 ##Pmod Header JC

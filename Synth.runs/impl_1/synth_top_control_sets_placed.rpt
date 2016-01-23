@@ -1,7 +1,7 @@
 Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
-| Date         : Sun Jan 17 14:19:01 2016
+| Date         : Sat Jan 23 16:10:06 2016
 | Host         : julian3-Inspiron-5520 running 64-bit Ubuntu 14.04.3 LTS
 | Command      : report_control_sets -verbose -file synth_top_control_sets_placed.rpt
 | Design       : synth_top
@@ -22,8 +22,8 @@ Table of Contents
 +-------------------------------------------------------------------+-------+
 |                               Status                              | Count |
 +-------------------------------------------------------------------+-------+
-| Number of unique control sets                                     |     4 |
-| Minimum Number of register sites lost to control set restrictions |    18 |
+| Number of unique control sets                                     |     7 |
+| Minimum Number of register sites lost to control set restrictions |    30 |
 +-------------------------------------------------------------------+-------+
 
 
@@ -35,8 +35,8 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | No           | No                    | No                     |              10 |            4 |
 | No           | No                    | Yes                    |               0 |            0 |
-| No           | Yes                   | No                     |               0 |            0 |
-| Yes          | No                    | No                     |              32 |           10 |
+| No           | Yes                   | No                     |             364 |           91 |
+| Yes          | No                    | No                     |              56 |           15 |
 | Yes          | No                    | Yes                    |               0 |            0 |
 | Yes          | Yes                   | No                     |               4 |            1 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
@@ -45,13 +45,16 @@ Table of Contents
 3. Detailed Control Set Information
 -----------------------------------
 
-+----------------------+-----------------------------+--------------------------+------------------+----------------+
-|     Clock Signal     |        Enable Signal        |     Set/Reset Signal     | Slice Load Count | Bel Load Count |
-+----------------------+-----------------------------+--------------------------+------------------+----------------+
-|  mclk_2518_OBUF_BUFG | i2stx/lrclk_delayed_i_1_n_0 | i2stx/bit_cnt[3]_i_1_n_0 |                1 |              4 |
-|  mclk_2518_OBUF_BUFG |                             |                          |                4 |             10 |
-|  mclk_2518_OBUF_BUFG | sclkdiv/sawtooth_reg[6]     |                          |                3 |             10 |
-|  mclk_2518_OBUF_BUFG | i2stx/lrclk_delayed_i_1_n_0 |                          |                7 |             22 |
-+----------------------+-----------------------------+--------------------------+------------------+----------------+
++-----------------------+-----------------------------+--------------------------+------------------+----------------+
+|      Clock Signal     |        Enable Signal        |     Set/Reset Signal     | Slice Load Count | Bel Load Count |
++-----------------------+-----------------------------+--------------------------+------------------+----------------+
+|  lrclk_2518_OBUF_BUFG |                             |                          |                1 |              1 |
+|  mclk_BUFG            | i2stx/lrclk_delayed_i_1_n_0 | i2stx/bit_cnt[3]_i_1_n_0 |                1 |              4 |
+|  mclk_BUFG            |                             |                          |                3 |              9 |
+|  mclk_BUFG            | sel                         |                          |                3 |             12 |
+|  lrclk_2518_OBUF_BUFG | Osc1[15]/p_0_in             |                          |                4 |             14 |
+|  mclk_BUFG            | i2stx/lrclk_delayed_i_1_n_0 |                          |                8 |             30 |
+|  lrclk_2518_OBUF_BUFG |                             | Osc1[15]/initialstate    |               91 |            364 |
++-----------------------+-----------------------------+--------------------------+------------------+----------------+
 
 

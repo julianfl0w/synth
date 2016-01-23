@@ -7,12 +7,13 @@ Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
+Compiling module unisims_ver.ODDR
 Compiling module xil_defaultlib.oscillator
 Compiling module xil_defaultlib.i2s_tx
 Compiling module unisims_ver.MMCME2_ADV(BANDWIDTH="OPTIMIZED"...
 Compiling module unisims_ver.MMCME2_BASE(CLKFBOUT_MULT_F=7.0,...
 Compiling module xil_defaultlib.clk_div
-Compiling module xil_defaultlib.synth_top
+Compiling module xil_defaultlib.synth_top_default
 Compiling module xil_defaultlib.synth_top_tb
 Compiling module xil_defaultlib.glbl
 Built simulation snapshot synth_top_tb_behav

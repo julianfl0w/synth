@@ -13,7 +13,7 @@ always #1 clk = ~clk;
 
 synth_top synth_top_i(
     .clk(clk),
-    
+    .sw(16'h0040),
     .btnC(1'b0),
     .btnU(1'b0),
     .btnD(1'b0),
@@ -24,7 +24,7 @@ synth_top synth_top_i(
     .sdata_2518(sdata_2518),
     .bclk_2518(bclk_2518),
     .mclk_2518(mclk_2518),
-    .SD_2518(SD_2518)
+    .sd_2518(sd_2518)
      );
 
 endmodule

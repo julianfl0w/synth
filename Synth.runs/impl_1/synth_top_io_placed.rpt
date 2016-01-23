@@ -1,7 +1,7 @@
 Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
-| Date         : Sun Jan 17 14:19:00 2016
+| Date         : Sat Jan 23 16:10:05 2016
 | Host         : julian3-Inspiron-5520 running 64-bit Ubuntu 14.04.3 LTS
 | Command      : report_io -file synth_top_io_placed.rpt
 | Design       : synth_top
@@ -86,7 +86,7 @@ Table of Contents
 | C13        |             | Dedicated  | VCCADC_0                     | XADC          |             |       0 |            |      |                     |                      |         |            |           |      |                  |
 | C14        |             | High Range | VCCO_16                      | VCCO          |             |      16 |            |      |                     |                      |    3.30 |            |           |      |                  |
 | C15        | mclk_2518   | High Range | IO_L11P_T1_SRCC_16           | OUTPUT        | LVCMOS33    |      16 |         12 | SLOW |                     |            FP_VTT_50 |         | FIXED      |           |      | NONE             |
-| C16        | SD_2518     | High Range | IO_L13P_T2_MRCC_16           | OUTPUT        | LVCMOS33    |      16 |         12 | SLOW |                     |            FP_VTT_50 |         | FIXED      |           |      | NONE             |
+| C16        | sd_2518     | High Range | IO_L13P_T2_MRCC_16           | OUTPUT        | LVCMOS33    |      16 |         12 | SLOW |                     |            FP_VTT_50 |         | FIXED      |           |      | NONE             |
 | C17        |             | High Range | IO_L14P_T2_SRCC_16           | User IO       |             |      16 |            |      |                     |                      |         |            |           |      |                  |
 | C18        |             | High Range | VCCO_16                      | VCCO          |             |      16 |            |      |                     |                      |    3.30 |            |           |      |                  |
 | C19        |             |            | GND                          | GND           |             |         |            |      |                     |                      |     0.0 |            |           |      |                  |

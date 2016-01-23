@@ -15,8 +15,8 @@ set_property parent.project_path /home/julian3/Vivado/Synth/Synth.xpr [current_p
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 read_verilog -library xil_defaultlib {
-  /home/julian3/Vivado/Synth/Synth.srcs/sources_1/new/clk_div.v
   /home/julian3/Vivado/Synth/Synth.srcs/sources_1/imports/new/oscillator.v
+  /home/julian3/Vivado/Synth/Synth.srcs/sources_1/new/clk_div.v
   /home/julian3/Vivado/Synth/Synth.srcs/sources_1/imports/new/i2s_tx.v
   /home/julian3/Vivado/Synth/Synth.srcs/sources_1/new/synth_top.v
 }
